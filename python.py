@@ -104,6 +104,4 @@ print(s[3:0:1])
 
 
 
-student = {"name": "Ram", "age": 20}  # Key:value pairs
-
 
