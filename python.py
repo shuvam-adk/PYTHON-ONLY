@@ -1,7 +1,4 @@
-age = 22
-print("age")
-print(age)
-print(str(age))
+
 
 # "string indexing",
 
