@@ -109,3 +109,11 @@ name=input('my name is :')
 age=int(input('the age of the character is :'))
 print(name,age)
 
+#21
+#20..
+land=float(input('the the price of this land is :'))
+print(land)
+name=input('my name is :')
+age=int(input('the age of the character is :'))
+banana=float(input('the banana of the price is :'))
+print(name,age,banana)
