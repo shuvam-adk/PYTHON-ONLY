@@ -1,4 +1,4 @@
-print("Day 4 of learning code")
+("IF-ELIF-ELSE")
 
 
 #No.1
@@ -13,7 +13,47 @@ else:
    print("light is broken")
  
 #No.2
+age=int( input ( ' the age is  : ' ) )
+if age <= 13 :
+    print( ' he is just a kid ')
+elif  14<= age <22 :
+    print ( ' he is teen ' )
+elif 22<= age <40:
+    print('he is a man')
+elif  40<= age <=75:
+    print('old man')
+else:
+    print('senior')
+    
+    
+#another example:
+goals=int(input('goals:'))
+if  goals <=0:
+    print('no goal ')
+elif  goals <=1:
+    print(' not bad ')
+elif goals   <=2:
+    print('wow')
+elif goals  <=3 :
+    print('wokaka')
+else:
+    print('WTF')
+    
+   #ANOTHER EXAMPLE OF IF ELSE  
+messi_scores=int(input('goals:'))
 
+if  messi_scores >=5 <6:
+    print('awesome')
+elif  messi_scores ==4 :
+    print('wow')
+elif messi_scores  >=3 :
+    print('not bad')
+elif messi_scores >=2 :
+    print(' ok')
+else:
+    print('meeeesiiii')
+        
+    
 #Conditional Statements 
     #Grades of Students
    marks=input("marks : ")
