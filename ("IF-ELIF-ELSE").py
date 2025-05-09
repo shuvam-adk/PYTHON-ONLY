@@ -125,6 +125,17 @@ else:
 
 
 #No.4  #Food 
+light=input('light:')
+if light == 'red':
+    print('stop')
+elif light == 'green':
+    print('go')
+elif light == 'yellow':
+    print('look')
+else:
+    print('this is nepal')
+
+#no...---
 food=input("food:")
 eat="yes" if food=="cake"else "no"
 print(eat)
