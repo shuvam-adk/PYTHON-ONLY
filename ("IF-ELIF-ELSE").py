@@ -1,6 +1,54 @@
 ("IF-ELIF-ELSE")
 
+#if-elif-else (syntax)
 
+  # if('condition'):
+  #     statement1
+  # elif('condition'):
+  #     statement2
+  # else('condition'):
+  #     stetement3
+    
+    #1......
+light = input('trafic light: ')
+if(light=='red'):
+    print('stop')
+elif(light=='yellow'):       # this code is good but
+    print('look')          #this is not the way of do the code professionally
+else:(light=='green')
+print('go')
+    
+#The pro way to do code is like this
+  #2...
+light= input(' the trafic light : ')
+if light == 'red':
+    print ('stop')
+if light == 'yellow':
+    print('look')
+if light == 'geeen':
+    print ('go')
+else: 
+    print ( ' Invalid input ' )  # yo vane ko chai user le aru kunai
+                                 # hawa  color choice garyo bhane run garda invalid input vancha..
+                                 
+                                 
+    
+#3..Problem: Ask the user for their age and print:
+
+    
+#  >= 4 → Checks if Messi scored 4 or more (highest priority).
+
+# >= 3 → If not 4+, but 3 or more (so just 3, since 4+ is already handled).
+
+# >= 2 → If not 3+, but 2 or more (so just 2).
+
+# >= 1 → If not 2+, but 1 or more (so just 1).
+
+# else → If none of the above, 0 goals.
+
+# Example Runs:   
+    
+    
 #No.1
 light= input("light colour:")
 if(light=="red"):
