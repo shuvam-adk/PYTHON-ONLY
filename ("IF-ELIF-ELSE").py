@@ -135,6 +135,24 @@ elif light == 'yellow':
 else:
     print('this is nepal')
 
+#no5...
+marks = int(input('marks:'))
+if marks >=90:
+    print('A+')
+elif marks >=80 <89:
+    print('A')
+elif marks >70 <=79:
+    print('B+')
+elif marks >60 <=69:
+    print('B')
+elif marks >50 <=59:
+    print('c+')
+elif marks >39 <=49:
+    print('just pass')
+else:
+    print('fail')
+
+
 #no...---
 food=input("food:")
 eat="yes" if food=="cake"else "no"
