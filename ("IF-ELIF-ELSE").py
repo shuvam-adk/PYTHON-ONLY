@@ -151,6 +151,79 @@ elif marks >39 <=49:
     print('just pass')
 else:
     print('fail')
+#5...
+light=input('traffic light:')
+if light == 'red':
+    print('stop')
+    print('check his licence')
+elif light == 'yellow':
+    print('look')
+    print('go carefully')
+elif light == 'green':
+    print('look')
+else:
+    print('ckeck his  licence')
+  
+marks= int(input('marks of students:'))
+if marks >=90:
+    print('A+')
+elif marks >=80 <90:
+    print('B+')
+elif marks >=70 <80:
+    print('C+')
+else:
+    print('study hard')
+      
+# A=5&G=M ('Solve the problem')   <<<<< xaina aako ajai ni>>>>>>
+
+# a=int(input('a:'))
+# g=input('m/f:')
+# if((a==1 or a==2) and g=='m'):
+#     print('fee is 100 ')    
+# elif(a==3 or a == 4 or  g== 'f'):
+#     print('fee is 200')
+# elif(a==5 or g == 'm'):
+#     print('fee is 300')
+# else:
+#     print('no fee')
+    
+
+money=100
+money=money+50
+print(money) 
+
+
+m=20
+m= (m+20)
+print(m)
+
+num1=int(input('first num:'))
+num2=int(input('second num:'))
+print('sum:',num1+num2)
+
+name=input('name:')
+age=int(input('age:'))
+marks=float(input('marks:'))
+print('my name is:',name)
+print(' i am :', age )
+print('marks:',marks)
+
+#sum values=
+num1=int(input('first num:'))
+num2= int(input('sec num:'))
+sum=(num1+num2)
+print(sum)
+
+#WAP to input 2int num,a&b. print true if
+# a is greater than or equal to b in not. print false ..
+a=int(input('a:'))
+b=int(input('b:'))
+if a >=b:
+    print('true')
+elif b >=a:
+    print('false')
+else:
+    print('error')
 
 
 #no...---
