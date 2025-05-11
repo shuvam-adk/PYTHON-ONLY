@@ -1,4 +1,28 @@
 print("Day 2 of Learning coding")
+print("hello")
+print("Hello World")
+print("Shuvam Adhikari")
+print("my age is 22")
+print(" shuvam is my name ","my age is 22")
+print(22)
+print(22+22)
+age=22
+price=27.23
+print(age)
+print(price)
+name=("shuvam")
+print("my name is:",name)
+name="shuvam adhikari"
+print("my name is:",name)
+print("my age is :", age)
+print(type(name))
+print(type(price))
+print(type(age))
+print(type(name))
+age=22
+print(type(age)) 
+
+
 print('''hello world''')
 
 print("Hello World")
