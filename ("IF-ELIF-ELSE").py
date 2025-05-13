@@ -255,6 +255,36 @@ elif(marks >=80 and marks < 90):
 elif(marks >=70 and marks < 80):
     grade="C"    
 
+#...
+
+#practice questions 
+#1...
+name=input('name:')
+print(len('name'))
+
+# #2..
+chr=' paisa koo sign $,$,$,$ ho k ho $ ho k cha re $ cha ho good'
+print(chr.count('$'))
+
+#3...
+age=int(input('age : '))
+if age >=22:
+    print('he can have a bike licence ')
+elif age <21:
+    print('he cant have licence')
+else:
+    print(' political back ground ')
+
+#5...
+age=int(input('His age is:'))
+if age >=21 <=22:
+    print('he is older son')
+elif age >19 <=20:
+    print ( ' yonger son')
+elif age  >=17 <=18:
+    print(' he is teen')
+else:
+    print('we have no child')
 
 #no...---
 food=input("food:")
