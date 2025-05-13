@@ -1,4 +1,10 @@
-print('Day 11 for Better life of my one')
+#1... 
+num=[1.2,1.9,2.8,3.7,4.2]
+print(num)                 # for print
+print(type(num))           #to find the type
+print(len(num))            #to find the length of value
+print(num[1])              # to search for index value 
+
 
    #1...
 student=['shuvam',22.5,22,'kathmandu']
