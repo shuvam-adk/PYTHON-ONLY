@@ -187,6 +187,36 @@ else:
 # else:
 #     print('no fee')
     
+#...
+
+##6..wap to check if a number entered by
+# the user is odd or even
+num=int(input('number is :'))
+if num %2==0:
+    print('even')
+else:
+    print('odd')
+    
+
+#8... wap to check if number is a multiple
+# of 7 or not?
+num=int(input('number is :'))
+if num %7==0:
+    print(' yes it is  ')
+else:
+    print('nah it is not')
+
+
+#9... wap to check if number is a multiple
+# of 25 or not?
+num=int(input('the multiple of :'))
+if num %25==0:
+    print('the multiple of 25')
+else:
+    print(' no this is not the correct num')
+    
+
+
 
 money=100
 money=money+50
