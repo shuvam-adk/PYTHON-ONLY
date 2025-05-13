@@ -285,6 +285,26 @@ elif age  >=17 <=18:
     print(' he is teen')
 else:
     print('we have no child')
+#6...
+#for finding 5 greatest number
+a=int(input('enter 1st num:'))
+b=int(input('enter 2nd num:'))
+c=int(input('enter 3rd num:'))
+d=int(input('enter 4th num:'))
+e=int(input('enter he 5th num:'))
+if a>b and a>c and a>d and a>e:
+    print('a is largest num:')
+elif b>a and b>c and b>d and b>e:
+    print('b is largest num:')
+elif c>a and c>b and c>d and c>e:
+    print('c is largest num:')
+elif d>a and d>b and d>c and d>e:
+    print('d is largest num:')
+elif e>a and e>b and e>c and e>d:
+    print('e is largest num:')
+else:
+    print('May numbers are equal or not matched')
+
 
 #no...---
 food=input("food:")
