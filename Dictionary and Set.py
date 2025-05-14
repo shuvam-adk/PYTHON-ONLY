@@ -1,6 +1,4 @@
-#Day 14 for near better future and better family...
-# I will gain enough knowledge to join a internship in 10 months.
-print("I will join my first internship in 12 months with my brother together ")
+
 
 #1..my dict.update(new dict) topic...
 student={
