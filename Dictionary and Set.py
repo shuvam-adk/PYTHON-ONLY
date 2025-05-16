@@ -1,4 +1,71 @@
 
+# 1..
+father= {
+    'work': {
+        'police': 'retired',
+        'money':{
+            'salary':203000,   
+        }
+    }
+}
+print(father['work'])
+
+#2..
+son = {
+    'name':'shuvam',
+     'studying': {
+        'himalaya':'3rdsem',
+        'books':{
+            'maths':{
+                'marks':29,
+            'subject': {
+                'dsa': {
+                'marks':30,
+                'subject': {
+                'java':{
+                    'marks':39,
+                        'subject':{
+                            'sad':{
+                                'marks':28
+                            }
+                        }
+                    }
+                }    
+            }   
+            }
+            }
+        }
+            
+    }
+        
+}
+
+print(son)
+
+
+# 3...
+
+chr= {
+    'name':'shuvam',
+    'work':'unemployed',
+    'age': '22',
+    'hobby':{
+        'game':['footbal','cricket','video game'],
+        'another hobby':{
+            'sketch':'animated drawing',
+            'from':'hetaude',
+            
+        }
+    }
+    
+}
+print(chr)
+print(type(chr))
+print(chr['age'])
+print(chr['work'])
+print(chr['name'])
+print(chr['hobby'])
+
 
 #1..my dict.update(new dict) topic...
 student={
