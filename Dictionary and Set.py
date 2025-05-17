@@ -1,4 +1,109 @@
+## Now Sets in python  ..
 
+## 1..
+# num={1,2,3,4,5}
+# um={1,2,2,3,2}
+# print(num-um)
+
+
+#2..replaced elements stored only once .
+num={1,2,3,4,5}
+print(num)
+print(type(num))
+print(len(num))
+
+#3..Set methods:--  We have to do curle brackets on sets
+#set.add(..)
+chr={'a','s','d','q'}
+print(chr)
+chr.add('v')
+print(chr)
+
+#4..
+num={1,2,3,4,5,6}
+print(num)
+num.add(7)
+print(num)
+
+##5...SET.remove(..)
+chr={'a','s','d','f','g'}
+print(chr)
+chr.remove('a')
+chr.remove('d')
+chr.remove('g')
+print(chr)
+
+#6...
+num={1,2,3,4,5,6,7,8,9,0}
+print(num)
+num.remove(0)
+num.remove(5)
+num.remove(1)
+num.remove(9)
+print(num)
+
+##.7..SET.CLEAR() it remove all the elements from the code ..
+chr={'a','s','z','x','c'}
+print(chr)
+chr.clear()
+print(chr)
+
+#8..
+element={1,2,3,4,5,6,7}
+print(element)
+element.clear()
+print(element)
+
+## 9..Set.pop() It runs the random value frome code..
+chr={'q','w','e','r'}
+chr.pop()
+print(chr)
+
+##10..
+num = {1,2,3,4,5,6,7,8 }
+num.pop()
+print(num)
+
+##11..
+num={1,2,3,4}
+num.pop()
+print(num)
+
+
+#12..      SEt methods  ( number haru combine gare ra print garne  garda cha like 1,2,3,4,5)etc.
+# SET.UNION()  this in the combination of the two values
+
+num1={1,2,3,4,5}
+num2={2,2,3,4,5,6,7,8}
+print(num1.union(num2))
+
+#..
+num1={1,2,3}
+num2={2,3,4,5}
+print(num2.union(num1))
+
+##...
+num1={0,9,8,7,6}
+num2={0,9,8,6,5,4,3,3,2,1}
+print(num1.union(num2))
+
+
+
+#.13..Set.intersection  (yo ma common value lai print garcha ) for example;;
+#it prints the common value
+num1={1,2,3,4,5}
+num2={2,4,6,7,8}
+print(num1.intersection(num2))
+
+#..
+chr={'a','s','d','z'}
+ele={'a','s','c','v'}
+print(chr.intersection(ele))
+
+##..
+n={1,2,3,3,4,5}
+q={1,7,5,4,8}
+print(n.intersection(q))
 # 1..
 father= {
     'work': {
