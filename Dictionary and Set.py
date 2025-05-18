@@ -57,6 +57,36 @@ print(chr)
 chr.add('v')
 print(chr)
 
+marks={}
+a=(int(input('enter the num:')))
+marks.update({'maths': a})
+s=(int(input('enter the number :')))
+marks.update({'sad':s})
+d=(int(input('enter the num :')))
+marks.update({'web':d})
+print(marks)
+
+#WAP to enter marks of 3 students from the user and store them in 
+# dictionary. start with an empty dictionary and add one
+# bye one use subject name as key &marks as value 
+
+marks={}
+shuvam=('enter the marks :')
+marks.update({'java':shuvam})
+shuvam=('enter the marks :')
+marks.update({'pro':shuvam})
+shuvam=('enter the marks :')
+marks.update({'web':shuvam})
+print(marks)
+print(type(marks))
+
+
+
+
+
+
+
+
 #4..
 num={1,2,3,4,5,6}
 print(num)
