@@ -1,5 +1,43 @@
 ## Now Sets in python  ..
 
+# Lets practice
+##1..store following word meaning in python dictionary:
+table={
+    'futniture':'a piece of furniture',
+    'list ':'of facts and figures',
+    'animal':{
+    'cat':'a small animal',
+    }
+}
+print(table)
+
+##2..You are given a list of subject for students. assume one classroom is required
+# for 1 subject how many classroom are needed by all students ..
+
+cls1= {
+    'python','java','c++','python','java'
+    'python','java','c++','c' }
+print(len(cls1))
+
+
+#3.. WAP to enter marks of 3 students from the user and store them in dictionary. start with an empty dictionary and add one
+# bye one use subject name as key &marks as value 
+marks={}
+a=(int(input('enter the marks :')))
+marks.update({'math':a })
+b=(int(input('enter the marks: ')))
+marks.update({'dsa':b })
+c=(int(input('enter the marks : ')))
+marks.update({'sad': c })
+print(marks)
+
+
+##4.. Figure out a way to store 9 & 9.0 as seprated values in the set
+# (you can take help of built in data types)
+num=(9,'9.0')
+print(num)
+
+
 ## 1..
 # num={1,2,3,4,5}
 # um={1,2,2,3,2}
