@@ -1,4 +1,101 @@
-print('Try to achive somthing for your life')
+##Loops.in python,,,
+#Tyeps of loops =
+ ############## for loops
+ ############## while loops
+i=1      #  yo k vane ko vanda i=1 vane ko aba 1 bata count suru gare ko vane ko ho print garda ya j halyo tai bata suru huncha printe huna 
+while i <=50 :  # yo chia yo chai syntax ho < 50 ki =50 sama lai vane ko ho
+  print (i)  # print (i) vane ko connection ho mathi ko i=1 and at last while i<=50
+  i+=1    # yo chai last add 1 gardai jave vane ko i+=2 vako vaye (2,4,6,8,10,12,14,16) hudai 50 sama janthyo
+
+#Loops.in python,,,
+# Tyeps of loops =
+ ############# for loops
+ ############# while loops
+
+
+#1..while loops: Example:;;
+num= 1
+while num <= 9:
+  print('raja')
+  num+=1
+
+#2 print  name for 10 times ;
+i = 1
+while i <= 8 :
+  print('suvam')
+  i +=1
+
+#3..
+i =1
+while i <= 4:
+  print('hello shuvam ')
+  i +=1
+
+# #4..  
+i =1 
+while  i <=99 :
+  print('Rohit adhikari '+ ' ' + 'die')
+  i+=1
+
+##4...
+i=1
+while i<=10 :
+  print('shuvam')
+  i+=1
+
+#5...
+i=1
+while i<=3 :
+  print('shuvam')
+  i+=1
+
+##6..1,2,3,4,5 
+i=1
+while i<=5 :
+  print(i)
+  i+=1
+
+##7..
+i=5
+while i>=1 :
+  print(i)
+  i-=1
+
+##8..print 5,4,3,2,,1
+i=5
+while i >=1 :
+  print(i)
+  i-=1
+
+##9.. print number from 1 to 50
+i=2
+while i <=50 :
+  print (i)
+  i+=1
+
+##10..print number 50 to 1
+i=50
+while i >=1 :
+  print(i)
+  i-=1
+
+##11..print the multiplication table of a number n
+i=1
+while i<=10 :
+  print(3*i)
+  i+=1
+
+##12 print the multiplication table of a number n
+i=1
+while i<=10 :
+  print(2*i)
+  i+=1
+
+##
+i= 1
+while i<= 10:
+  print(4*i)
+  i+=1
 
 u=1
 while u<=2:
