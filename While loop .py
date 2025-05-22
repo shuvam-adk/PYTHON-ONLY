@@ -1,5 +1,70 @@
 
 # ##while loop
+##while loop
+
+
+##7..
+
+name=input('enter your name :')
+age= int(input('your age is :'))
+study=int(input('you study in :'))
+while name == '':
+    print('enter your name')
+    name=input('enter your name :')
+print(f'your name is {name}')
+while age == '':
+    print('enter your age ')
+    age=input('enter your age :')
+    age=int(age)
+print(f'your age is {age}')
+while study == '':
+    print('your study cls')
+    study=input('you study in :')
+print(f'your class {study}')
+    
+## 
+    
+name=input('enter your name :')
+age=input(' your age :')
+while name == '':
+    print('enter your name sir')
+    name=input('enter your name :')
+print(f'your name is {name}')
+while age == '':
+    print('enter your age')
+    age=input('enter your age sir :')
+print(f'your age is {age}')
+print(f'Thank you for your input {name}')   
+
+###...   
+
+food=input('enter your food name(p to quit):')
+while not food == 'p' :
+   print(f'you like {food}')
+   food=input('enter your food name(f to quit):')
+print('bye have a hungre day')
+    
+##...    
+place= input('enter your best place (enter f to  quit) :')
+while not place == 'f':
+    print(f'you like this = {place}')
+    place= input('enter your best place (enter f to  quit) :')
+print('no way ')
+
+place=('enter your place or (q for quit):')
+while not place == 'q':
+    print(f'you like this place name : {place}') 
+    place=input('enter your place or (q for quit):')
+print('nahh')
+
+###..
+num=int(input('enter a number between 1 - 20 :'))
+while num <1 or num >20:
+    print(f'your number is not valid{num}')
+    num=int(input('enter a number between 1 - 20 :'))
+print(f'your number is {num}
+
+
 ###
 q=1
 w=1
