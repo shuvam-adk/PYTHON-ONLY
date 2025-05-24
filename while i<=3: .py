@@ -37,11 +37,10 @@ while  count<5:
 
 
 #4...
-name='shuvam'
-count=0
-while count<5:
-    print(name)
-    count+=1
+name=1
+while name <10 :
+   print('shuvam')
+   name+=1
 
 u=1
 while u<=3:
