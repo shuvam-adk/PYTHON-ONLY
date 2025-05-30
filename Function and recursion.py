@@ -1,3 +1,62 @@
+#function & recursion 
+#function is a block of reusable code place() after the function 
+### name to invoke it 
+
+##1..
+def happy_birthday(name,age):
+    print(f'happy birthday {name} bro ')
+    print(f'you are {age} years old')
+    print('have a nice day')
+    print()
+happy_birthday('shuvam',22)
+happy_birthday('kriti',23) 
+
+##2...
+def study(clas,section):
+    print(f'Hi i study in class {clas}')
+    print(f'Hi i am in {section} section')
+study(14,'b')
+    
+##3..
+def family_members(name,age,gender):
+    print(f'Hi my name is {name}')
+    print(f'i am {age} years old ')
+    print(f'i am {gender}')
+    print()
+family_members('shuvam',22,'male')
+family_members('raj',22,'male')  
+
+###4..    
+def person(name,work,married,colour,subject):
+    print(f'His name is {name} adhikari')
+    print(f'He work as a {work}')
+    print(f'He is happy and {married}')
+    print(f'he is little {colour}')
+    print(f'some cubject marks {subject}')
+person('shuvam','software deveplopr','single','little dark','subjects')
+name = {
+    'shuvam':{
+    'age':22
+    },
+    'book': {
+        'name':'dsa',
+       'name':'probability',
+        'name':'web',
+    },
+    'marks':{
+        'dsa':25,
+        'probability':28,
+        'web':26,
+    },
+    'colour':'little black',
+}
+    
+print(name)
+
+
+########
+
+
 print('my first intern remaning day 349')
 #Function and recursion 
 #1..
