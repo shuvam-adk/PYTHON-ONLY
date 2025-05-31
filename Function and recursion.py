@@ -54,6 +54,49 @@ name = {
 print(name)
 
 
+
+###
+###2...
+def person(name,age):
+    print(f'my name i {name}')
+    print(f'i am {age} years old')   
+person('shuvam',23)
+
+###3
+def val(luck,plane,name,skills,life,members,topic):
+    print(f'i am doing {luck} function today')
+    print(f'i am planning to contiuue my {plane} days ')
+    print(f'my real name was {name}')
+    print(f'what to do to improve my skills on my {skills} ')
+    print(f'lets continue our {life} life ')
+    print(f'i live with my {members} sister ')
+    print(f'i am  starting  this {topic} topic from yestarday ')
+val('coding',360,'kriti','coding','happy',1,'function')
+
+###4...
+def values (name,age,work, when, hobbies,relation_ship):
+    print(f'Hi {name}')
+    print(f'You are {age} years  old ')
+    print(f'You work as a {work} ')
+    print(f'From :{when}')
+    print(f'Your hobbies is to play {hobbies}')
+    print(f'You are {relation_ship}')
+values('shuvam',22,'student',2006,'footbal','single',)
+
+###5...
+def value (subject,size,brand):
+    print(f'i am studing {subject} from yesterday')
+    print(f'i have 2 {size} dog breed .')
+    print(f'i want to bye {brand}  bike .')
+value('DSA','large','bulldog')
+
+##6..
+def display_bill(name,money,date):
+    print(f'Hello {name} adhikari.')
+    print(f'You have to pay your rent Rs :{money} for your rent and others ')
+    print(f' You have to pay your wages till the day of {date} :')
+display_bill('shuvam','290000','2084/9/16')
+
 ########
 
 
